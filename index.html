@@ -20,7 +20,9 @@
         </div>
         <ul class="taskList">
             <li v-for="(task, index) in todoList">
-                {{task.id+". "+task.title}}
+                <!-- {{task.id+". "+task.title}} -->
+                {{task}}
+
                 <button class="buttonDel" @click="removeTask(index)">Удалить</button>
             </li>
         </ul>

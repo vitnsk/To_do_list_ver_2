@@ -9,6 +9,7 @@ new Vue({
             addTask() {
                 
                 if (this.newTask.trim() !== ''){
+                    
                     this.todoList.push(this.newTask)
                     this.newTask = ''
                 }
