@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+
+
+body{
+    background-color: rgb(218, 216, 216); 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} 
+
+#app{
+    margin-top: 20px;
+     margin-left: 50px;
+}
+
+.taskList{
+font-size: 18px;
+line-height: 1.5;
+}
+
+.taskNew{
+    font-size: 20px;
+    margin-bottom: 50px;
+
+}
+
+.buttonDel{
+    /* font-size: 18px; */
+    font-weight: normal;
+    margin-left: 10px;
+    border-radius: 5px; 
+    background-color: rgb(190, 190, 190); 
+    padding: 2px;
+} 
