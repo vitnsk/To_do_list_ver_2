@@ -2,11 +2,12 @@
 new Vue({
     el: '#app',
     data: {
-        newTask: '',
+       newTask: '',
         todoList: []
     },
     methods: {
             addTask() {
+                
                 if (this.newTask.trim() !== ''){
                     this.todoList.push(this.newTask)
                     this.newTask = ''
@@ -19,7 +20,7 @@ new Vue({
 
         mounted(){
         
-            fetch('https://jsonplaceholder.typicode.com/todos/')
+            fetch('https://jsonplaceholder.typicode.com/todos')
             .then((response)=>response.json())
             .then((json)=>(this.todoList=json));
         

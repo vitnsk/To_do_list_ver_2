@@ -19,7 +19,8 @@
         <button @click="addTask">Добавить</button>
         </div>
         <ul>
-            <li v-for="(task, index) in todoList">{{task}}
+            <li v-for="(task, index) in todoList">
+                {{task.title}}
                 <button @click="removeTask(index)">Удалить</button>
             </li>
         </ul>
