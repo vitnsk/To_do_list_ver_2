@@ -16,7 +16,7 @@
         <div class="taskNew">
             <label for="taskName">Новая задача:</label>
         <input type="text" id="taskName" v-model="newTask">
-        <button @click="addTask">Добавить</button>
+        <button class="buttonNew"  @click="addTask">Добавить</button>
         </div>
         <ul class="taskList">
             <li v-for="(task, index) in todoList">
