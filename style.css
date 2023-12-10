@@ -20,7 +20,7 @@ body{
 .taskList{
 font-size: 18px;
 line-height: 1.5;
-list-style-type: none;
+/* list-style-type: none; */
 }
 
 .taskNew{
@@ -30,7 +30,7 @@ list-style-type: none;
 }
 
 .buttonNew, .buttonDel{
-    /* font-size: 18px; */
+   
     font-weight: normal;
     margin-left: 10px;
     border-radius: 5px; 

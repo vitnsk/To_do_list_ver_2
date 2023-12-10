@@ -3,14 +3,14 @@ new Vue({
     el: '#app',
     data: {
        newTask: '',
-        todoList: []
+       todoList:[],
+       
     },
     methods: {
             addTask() {
                 
-                if (this.newTask.trim() !== ''){
-                    
-                    this.todoList.push(this.newTask)
+                if (this.newTask.trim() !== ''){                
+                    this.todoList.push({title: this.newTask})
                     this.newTask = ''
                 }
             },
